@@ -1,0 +1,88 @@
+.figure-1 {
+position: absolute;
+width: 45px;
+height: 40px;
+left: 50px;
+top: 39px;
+
+background: #D9D9D9;
+}
+
+.figure-2{
+position: absolute;
+width: 105px;
+height: 40px;
+left: 95px;
+top: 39px;
+
+background: #D9D9D9;
+}
+
+.figure-3 {
+position: absolute;
+width: 61px;
+height: 18px;
+left: 232px;
+top: 217px;
+
+background: #D9D9D9;
+}
+
+.figure-4{
+position: absolute;
+width: 582px;
+height: 73px;
+left: 406px;
+top: 215px;
+
+background: #D9D9D9;
+}
+
+.figure-5{
+position: absolute;
+width: 405px;
+height: 53px;
+left: 411px;
+top: 301px;
+
+background: #D9D9D9;
+}
+
+.figure-6{
+position: absolute;
+width: 248px;
+height: 29px;
+left: 414px;
+top: 404px;
+
+background: #D9D9D9;
+}
+
+.figure-7{
+position: absolute;
+width: 248px;
+height: 31px;
+left: 720px;
+top: 402px;
+
+background: #D9D9D9;
+}
+
+.figure-8{
+position: absolute;
+width: 124px;
+height: 26px;
+left: 1020px;
+top: 402px;
+
+background: #D9D9D9;
+}
+
+.figure-9{
+position: absolute;
+width: 628px;
+height: 28px;
+left: 407px;
+top: 549px;
+
+background: #D9D9D9;}

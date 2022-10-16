@@ -1,0 +1,10 @@
+/* Button */
+
+button {
+position: absolute;
+width: 167px;
+height: 52px;
+background: black;
+color:white;
+border-radius: 8px;
+}
