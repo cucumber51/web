@@ -10,4 +10,46 @@
     background-image: url("main-bkg.jpg");
     background-repeat:no-repeat;
     background-size:cover;
+    color: white;
+}
+
+.text{
+    width: 60%;
+    margin: auto;
+    padding-top: 25vh;
+    text-align: center;
+
+}
+
+h1{
+    font-family: 'Marck Script', cursive;
+    font-size :5vw;
+    line-height: 10vw;
+
+}
+
+hr{
+    width: 30vw;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+p{
+    font-family: 'Poiret One', cursive;
+    font-size: 2vw;
+    line-height: 3vw;
+    margin: auto;
+    width: 60vw;
+    margin-bottom: 5vh;
+
+}
+
+button{
+    font-family: 'Marck Script', cursive;
+    font-size: 2vw;
+    padding: 2vh;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1vh dotted white;
 }

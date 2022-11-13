@@ -1,1 +1,23 @@
-margin
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(*main-bkg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    width: 60%;
+    margin: auto;
+}
+
+h2{
+    font-family: ;
+}
