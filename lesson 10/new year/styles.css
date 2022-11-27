@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bad Script', cursive ;
+    background-color: #028668;
+    color: white;
+    text-align: center;
+    padding: 48px;
+    text-shadow: 0px 0px 1px #044132;
+    letter-spacing: 6px;
+
+}
