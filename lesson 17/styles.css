@@ -1,0 +1,38 @@
+header, footer, .testimonials {
+    background-color: #8f1c1c;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding-bottom: 60px;
+}
+
+.header{
+    padding: 2% 10% 7%;
+}
+
+.download-btn{
+    margin:5% 3% 5% 0   ;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+.features-img{
+    width: 45%;
+}
+
+.features{
+    padding: 7% 0;
+}
+
+.testimonal-text{
+    font-size: 2.5rem;
+    padding: 11%;
+}
