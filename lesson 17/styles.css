@@ -36,3 +36,31 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2.5rem;
     padding: 11%;
 }
+
+.cards {
+    padding: 0 17%;
+}
+
+.faq{
+    padding:4% 0;
+}
+
+.accordion{
+    padding: 0 5%;
+}
+
+.accord-sect{
+    background-color: #8f1c1c;
+    padding: 7% 0;
+}
+
+.paw{
+    width: 100px;
+    opacity: 0.35;
+}
+
+footer{
+    font-size: 28px;
+    padding: 5  % 0;
+    text-align: center;
+}
