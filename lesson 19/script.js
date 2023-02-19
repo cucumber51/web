@@ -8,7 +8,7 @@
 //let x = juicemaker(2,);
 //console.log(juicemaker(2))
 
-//function juicemaker(apples, oranges){
+function juicemaker(apples, oranges){
 ////if (oranges === undefined){
 ////    oranges = 'без испольования'
 ////}
