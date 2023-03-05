@@ -1,0 +1,15 @@
+#blue{
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.chiki {
+    display: flex; justify-content: space-between;
+}
