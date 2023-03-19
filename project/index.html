@@ -21,24 +21,25 @@
         </p>
     </div>
     <div class="rec2">
-        <p class="chislo">?</p>
+        <p class="chislo"><span>?</span></p>
         <img src="img/ezik.png" class="img1">
     </div>
     <div class="rec3">
-        <a href="" class="myButton2">Ещё раз</a>
+        <button onclick href="" class="myButton2 " value="">Ещё раз</button>
     </div>
     <div class="c1">
         <p class="text3">
             Введите предпологаемое число:
         </p>
-        <a href="" class="myButton">Проверить</a>
-        <input type="Поле ввода" placeholder="Поле ввода" class="inp1">
+        
+        <input type="Поле ввода" placeholder="Поле ввода" class="inp1" value="">
+        <button onclick="myFunction()" class="myButton">Проверить</button>
     </div>
 
     <div class="c2">
-        <p class="text4">заданное число больше/меньше</p>
-        <p class="sc">счёт:</p>
-        <p class="sc2">рекорд:</p>
+        <p class="text4"><span class="bm">заданное число больше/меньше</span></p>
+        <p class="sc">осталось попыток: <span class="score_counter"></span></p>
+        <p class="sc2">рекорд:<span class="record">-</span></p>
     </div>
     <script src="script.js"></script>
 </body>

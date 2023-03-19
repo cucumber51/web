@@ -71,6 +71,7 @@
 
 }
 
+
 .myButton {
 	background-color:#CFFE67;
 	border-radius:21px;
@@ -131,12 +132,12 @@
 	font-family:Arial;
 	font-size:17px;
 	padding:14px 40px;
-	text-decoration:none;
-
+	
+    text-align: center;
 	position: absolute;
-    right: 70px;
+    right: 80px;
     top: 35px;
-    width: 67px;
-    height: 30px;
+    padding: 17px 30px;
+    
     
 }
