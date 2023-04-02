@@ -1,28 +1,23 @@
-const drumBtn = document.querySelectorAll(".drum")
-const numberBtn = document.querySelectorAll(".drum").length
+const btnShowModAL = document.querySelectorAll(".btn")
+const close = document.querySelector(".close");
+const modal = document.querySelector(".modal");
 
-for (i=0;i<numberBtn;i++){
-    drumBtn[i].addEventListener("click",function(){
-        const btnInnerHtml = drumBtn[i].innerHTML;
-        makeSound(btnInnerHtml)
+const closeModal = () => {
+    // закрытие модального окна (/hidden)
+    modal.classList.add("hidden")
     
-    })
 }
 
-document.addEventListener("keydown", function(event){
-    makeSound(event.key)
+btnShowModAL.forEach((btn) => {
+    btn.addEventListener("click", function(){
+        modal.classList.remove("hidden")
+    })
 })
 
-const makeSound = (key) => {
-    switch(key){
-        case "w":
-            const w_sound = new Audio("sounds/drum1.mp3")
-            w_sound.play();
-            case "a":
-                const a_sound = new Audio("sounds/drum1.mp3")
-                a_sound.play();
-            case "d":
-            const d_sound = new Audio("sounds/drum1.mp3")
-            d_sound.play();
+close.addEventListener("click", closeModal)
+
+document.addEventListener("keydown", function(e){
+    if (e.key==="Escape" && !modal.classList.contains("hidden")){
+        closeModal();
     }
-}
+})

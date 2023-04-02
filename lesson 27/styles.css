@@ -1,0 +1,87 @@
+body{
+    background-color: gray;
+}
+.square{
+    background-color: black;
+    height: 600px;
+    width: 450px;
+    border-radius: 50px;
+    position: absolute;
+    left: 400px;
+    top: 25px;
+    bottom: 50px;
+}    
+.i-s{
+    color: white;
+    position: absolute;
+    left:430px;
+    top:30px;
+}
+
+.color_v{
+    color:white;
+    position: absolute;
+    left:565px;
+    top:100px;  
+    font-size: large;
+}
+
+
+
+
+.btn1{
+    background-color: white; 
+    border-radius: 29px; 
+    border: 1px solid white; 
+    color: black; 
+    font-size: 15px; 
+    padding: 10px 45px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    position: absolute;
+    bottom: 120px;
+    left: 500px;
+    }
+        
+.close{
+    position: absolute;
+    bottom:50px;
+    left:590px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+       
+
+.slider {
+    -webkit-appearance: none;
+    width: 420px;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    position: absolute;
+    left:410px;
+    top:300px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: gray;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: gray;
+    cursor: pointer;
+}
