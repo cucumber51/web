@@ -1,0 +1,54 @@
+body{
+    background-color: cornsilk;
+}
+
+.slides-container{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* в случае выхода элемента(не хватает места), тогда поялвется функия scroll */
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.slide{
+    width: 95vh;
+    padding: 50px;
+    flex:1 0 95%;
+}
+
+.slide:nth-child(odd){
+    background-color: blueviolet;
+}
+
+.slide:nth-child(even){
+    background-color: darkgoldenrod;
+}
+
+.arrow{
+    position: absolute;
+    background-color: whitesmoke;
+    height: 70px;
+    width: 50px;
+    font-size: 50px;
+    opacity: 0.3;
+    border: none;
+    top: 35vh;
+    transition: opacity 600ms ease;
+}
+
+.arrow:hover{
+    opacity: 1;
+}
+
+#next{
+    right: 0;
+    border-radius: 20px 0 0 20px;
+}
+
+#prev{
+    left: 0;
+    border-radius: 0 20px 20px 0;
+}
