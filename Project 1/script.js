@@ -1,5 +1,7 @@
 var slideIndex = 1;
 showSlides(slideIndex);
+const search_field = document.querySelector("#search");
+const tabsBtn = document.querySelectorAll(".tab_choose");
 
 // Next/previous controls
 function plusSlides(n) {
@@ -12,9 +14,11 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+  
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
+  console.log("dots:", dots)
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
@@ -24,5 +28,14 @@ function showSlides(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
 }
+
+
+tabsBtn.forEach((tab)=>{
+    tab.addEventListener("click",function(){
+    const currentTab = tab  
+    const placeholder_info = currentTab.dataset.id;
+    search_field.placeholder = placeholder_info;
+    })   
+})  
+
