@@ -17,14 +17,10 @@ body{
     z-index: 2;
 }
 
-.buttons{
-    position: absolute;
-    right: 15px;
-    
-}
 
 .btn{
     background-color: white;
+    font-family: 'Playfair', serif;
 
 }
 
@@ -47,18 +43,20 @@ body{
     height: 33px;
     right: 500px;
     background-color: rgba(70,40,205,0.9);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: small;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .block1 {
-  background-image: url("img/1.jpg");
+  background-image: url("img/photoeditorsdk-export.png");
   background-repeat: no-repeat;
-  /* object-fit: cover; */
+  object-fit: cover;
   width: 100vw;
   height: 300px;
   position: relative;
+  
 }
 
 .choose_form {
@@ -68,19 +66,18 @@ body{
   transform: translateX(-50%);
 }
 
-.buttons{
-  position: absolute;
-  left: 50%;
-  top:10px;
-  transform: translateX(-50%);
-}
+
 
 .content{
-  display: none;
+  
+  
+  margin-top: 50px;
+  display: flex;
 }
 
 .contents .active{
   display: block;
+  position: relative;
 }
 
 
@@ -114,21 +111,22 @@ body{
 
 .cons{
     grid-area: 1 / 2 / 2 / 3;
-    /* width: 275px;
-    height: 150px; */
+    width:  500px;
+    
     background-image: url(img/2.png);
     background-repeat: no-repeat;
     /* background-color: aqua; */
-    border-radius: 15px;
+    border-radius: 5px;
+    
 }
 
 .cons2{
   grid-area: 2 / 2 / 3 / 3;
-  /* width: 275px;
-  height: 150px; */
-  /* background-image: url(); */
+  width:  500px;
+
   background-color: red;
-  border-radius: 15px;
+  border-radius: 5px;
+  
 }
 
 
@@ -208,14 +206,36 @@ body{
 
 .buttons{
   display: flex;
-  position: absolute;
-  left: 50%;
-  top:10px;
-  transform: translateX(-50%);
+  height: 30px;
+  margin-left: 50%;
+  transform: translateX(-75%);
+
 }
+
 
 .px{
-  position: absolute;
-  bottom: 10px;
+  text-align: center;
+  display: block; 
+  background-color: darkslategray;
+  font-size: 1.5rem;
+  border-radius: 10px;
 }
 
+p{
+  font-family: 'Pacifico';
+}
+
+h3{
+  font-family: 'Playfair', serif;
+}
+
+.tab_choose{
+  font-family: 'Playfair', serif;
+  font-size: large;   
+  background-color: gray;
+}
+
+.svg{
+  position: relative;
+  margin-left: 15px;
+}
